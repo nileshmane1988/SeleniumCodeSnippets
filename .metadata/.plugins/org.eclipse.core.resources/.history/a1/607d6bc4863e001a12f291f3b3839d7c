@@ -1,0 +1,16 @@
+class Bike
+{
+static String color;
+double price;
+}
+
+public class Demo10
+{
+public static void main(String[] args)
+{
+String name;
+System.out.print(name+" ");
+System.out.print(Car.color+" ");
+System.out.print(new Car().price);
+}
+}

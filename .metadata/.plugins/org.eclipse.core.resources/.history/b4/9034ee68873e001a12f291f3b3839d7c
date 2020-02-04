@@ -1,0 +1,11 @@
+class Demo10
+{
+public static void main(String [ ] args)
+{
+int a = 10;
+System.out.print(a);
+int a = 45;
+System.out.print(" ");
+System.out.print(a);
+}
+}

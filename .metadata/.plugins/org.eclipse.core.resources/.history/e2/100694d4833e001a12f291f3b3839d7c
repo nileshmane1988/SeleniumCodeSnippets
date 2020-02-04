@@ -1,0 +1,30 @@
+class Super
+{
+public void Print()
+{
+System.out.println("Super");
+}
+}
+class Sub extends Super
+{
+public void Print()
+{
+System.out.println("Sub");
+}
+}
+public class CastingDemo4
+{
+public static void DoPrint(Super o)
+{
+o.Print();
+}
+public static void main(String[] args)
+{
+Super x = new Super();
+Super y = new Sub();
+Sub z = new Sub();
+DoPrint(x);
+DoPrint(y);
+DoPrint(z);
+}
+}

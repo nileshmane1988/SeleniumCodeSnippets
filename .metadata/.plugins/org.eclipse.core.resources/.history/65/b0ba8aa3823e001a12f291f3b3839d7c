@@ -1,0 +1,28 @@
+interface Gate1
+{
+void test();
+}
+interface Gate2 extends Gate1
+{
+void view();
+}
+class Gate3 implements Gate2
+{
+public void test()
+{
+System.out.println("Hello");
+}
+public void view()
+{
+System.out.println("World");
+}
+}
+public class InterfaceDemo5
+{
+public static void main(String args[])
+{
+Gate3 g = new Gate3();
+g.test();
+g.view();
+}
+}

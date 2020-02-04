@@ -1,0 +1,25 @@
+class Temp
+{
+private Temp(intdata)
+{
+System.out.printf("Constructor called ");
+}
+protectedstatic Temp create(intdata)
+{
+Temp obj = newTemp(data);
+returnobj;
+}
+publicvoidmyMethod()
+{
+System.out.printf("Method called ");
+}
+}
+
+public class ArgConstructorDemo1
+{
+public static void main(String args[])
+{
+Temp obj = Temp.create(20);
+obj.myMethod();
+}
+}

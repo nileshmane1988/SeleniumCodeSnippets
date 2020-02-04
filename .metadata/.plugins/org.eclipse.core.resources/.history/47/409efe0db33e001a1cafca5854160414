@@ -1,0 +1,26 @@
+
+public class MainClass {
+	
+	MainClass()
+	{
+		
+	}
+
+	int Sample(int a)
+	{
+		return a;
+	}
+	MainClass(int a){
+		
+	}
+}
+
+class MainClass
+{
+	public static void main(String[] args) {
+		
+		new MainClass(10);
+		
+		
+	}
+}

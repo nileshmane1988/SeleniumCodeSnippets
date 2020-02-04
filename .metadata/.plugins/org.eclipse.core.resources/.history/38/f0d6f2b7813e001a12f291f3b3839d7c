@@ -1,0 +1,33 @@
+interface Sample
+{
+void cal(int item);
+}
+class Sample1 implements Sample
+{
+int x;
+public void cal(int item)
+{
+x = item * item;
+}
+}
+class Sample2 implements Sample
+{
+int x;
+public void cal(int item)
+{
+x = item / item;
+}
+}
+public class InterfaceDemo2
+{
+public static void main(String args[])
+{
+Sample1 s1 = new Sample1();
+Sample2 s2 = new Sample2();
+s1.x = 0;
+s2.x = 0;
+s1.cal(2);
+s2.cal(2);
+System.out.print(s1.x + " " + s2.x);
+}
+}

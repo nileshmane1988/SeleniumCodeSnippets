@@ -1,0 +1,7 @@
+public class MainMethodDemo3
+{
+public static void main(String [] qspiders)
+{
+System.out.println("QSpiders");
+}
+}

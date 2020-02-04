@@ -1,0 +1,16 @@
+
+public class Sample {
+	
+	Sample()
+	{
+		
+	}
+
+	int Sample(int a)
+	{
+		return a;
+	}
+	Sample(int a){
+		
+	}
+}

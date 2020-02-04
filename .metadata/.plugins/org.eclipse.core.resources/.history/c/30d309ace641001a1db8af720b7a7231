@@ -1,0 +1,25 @@
+
+public class A {
+
+
+		static A Obj = new A();
+		
+		private A()
+		{
+			
+		}
+
+		public static A getA()
+		{
+		
+			return Obj;
+			
+		}
+		
+		void disp()
+		{
+			System.out.println("disp method");
+		}
+	}
+
+

@@ -1,0 +1,27 @@
+class Marks
+{
+int engMarks;
+int mathsMarks;
+int phyMarks;
+}
+
+public class Demo4
+{
+public static void main(String args[])
+{
+Marks obj1 = new Marks();
+obj1.engMarks = 50;
+obj1.mathsMarks = 80;
+obj1.phyMarks = 90;
+Marks obj2 = new Marks();
+obj2.engMarks = 80;
+obj2.mathsMarks = 60;
+obj2.phyMarks = 85;
+System.out.print("obj1: ");
+System.out.print(obj1.engMarks+" ");
+System.out.println(obj1.mathsMarks+" ");
+System.out.print("obj2: ");
+System.out.print(obj2.engMarks+" ");
+System.out.print(obj2.phyMarks);
+}
+}

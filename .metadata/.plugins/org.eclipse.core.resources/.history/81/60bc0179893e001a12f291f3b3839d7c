@@ -1,0 +1,34 @@
+class Overload
+{
+intx;
+double y;
+
+void add(inta , intb)
+{
+x = a + b;
+}
+
+void add(doublec , doubled)
+{
+y = c + d;
+}
+
+Overload()
+{
+this.x = 0;
+this.y = 0;
+}
+}
+
+public class ZeroArgConstructorDemo3
+{
+public static void main(String[]args)
+{
+Overload obj = newOverload();
+inta = 2;
+doubleb = 3.2;
+obj.add(a, a);
+obj.add(b, b);
+System.out.println(obj.x + " " + obj.y);
+}
+}

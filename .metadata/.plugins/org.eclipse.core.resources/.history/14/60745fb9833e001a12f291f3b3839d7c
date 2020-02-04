@@ -1,0 +1,27 @@
+class Gate
+{
+public int i;
+public int j;
+Gate()
+{
+i = 1;
+j = 2;
+}
+}
+class Demo4 extends Gate
+{
+int a;
+Demo4()
+{
+super();
+}
+
+}
+public class InheritanceDemo4
+{
+public static void main(String args[])
+{
+Demo4 obj = new Demo4();
+System.out.println(obj.i + " " + obj.j);
+}
+}

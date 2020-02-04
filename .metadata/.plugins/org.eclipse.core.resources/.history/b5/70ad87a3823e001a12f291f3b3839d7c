@@ -1,0 +1,15 @@
+class Gate3
+{
+}
+class Gate4 extends Gate3
+{
+}
+public class CastingDemo2
+{
+public static void main(String[] args)
+{
+Gate3 g3 = new Gate4();
+Gate4 g4 = (Gate4)g3;
+System.out.println(g4);
+}
+}

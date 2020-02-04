@@ -1,0 +1,26 @@
+
+class Sample {
+	Sample(){}
+	int Sample(int a) {
+		System.out.println("int method");
+		return a;
+	}
+
+	Sample(int a) {
+		System.out.println("int const");
+		// return a;
+
+	}
+}
+
+class MainClass {
+	public static void main(String[] args) {
+
+		// System.err.println(new Sample(33));
+		
+		Sample s1 = new Sample();
+		
+		 
+
+	}
+}

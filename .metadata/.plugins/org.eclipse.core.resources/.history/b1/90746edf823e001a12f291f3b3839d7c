@@ -1,0 +1,22 @@
+class Parent
+{
+public void show()
+{
+System.out.println("Parent::show() called");
+}
+}
+class Child extends Parent
+{
+public void show()
+{
+System.out.println("Child::show() called");
+}
+}
+public class CastingDemo3
+{
+public static void main(String[] args)
+{
+Child b = new Parent();
+b.show();
+}
+}

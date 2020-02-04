@@ -1,0 +1,26 @@
+
+public class A
+{
+	static MainSingle Obj = new MainSingle();
+	
+	private A()
+	{
+		
+	}
+
+	public static MainSingle getA()
+	{
+		return Obj;
+		
+	}
+	
+	
+}
+
+
+ class MainSingle
+{
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,32 @@
+
+class Sample {
+	Sample(){
+		System.out.println("defoult constracter");
+	}
+	int Sample(int a) {
+		System.out.println("int method");
+		return a;
+	}
+
+	Sample(int a) {
+		System.out.println("int const");
+		// return a;
+
+	}
+}
+
+class MainClass {
+	public static void main(String[] args) {
+
+		// System.err.println(new Sample(33));
+		
+		System.out.println("-----------1---------");
+		Sample s1 = new Sample();
+		System.out.println("----------2----------");
+		s1.Sample(0);
+		System.out.println("---------3-----------");
+		System.out.println(new Sample(200)); 
+		System.out.println("--------------------");
+
+	}
+}

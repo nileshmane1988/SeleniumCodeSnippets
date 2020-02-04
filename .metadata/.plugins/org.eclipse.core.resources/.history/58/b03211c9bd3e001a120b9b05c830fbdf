@@ -1,0 +1,27 @@
+class Sample2 {
+	Sample2(){
+		System.out.println("defoult constracter");
+	}
+	int Sample2(int a) {
+		System.out.println("int method");
+		return a;
+	}
+
+	Sample2(int a) {
+		System.out.println("int const");
+		// return a;
+
+	}
+}
+
+class MainClass2 {
+	public static void main(String[] args) {
+
+		
+		Sample2 s1 = new Sample2();
+		s1.Sample2(0);
+		System.out.println(new Sample2(200)); 
+		
+
+	}
+}
